@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS: Scroll-driven Animations (Responsive Webpage)</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <label class="menu" for="burger">
+    <input id="burger" type="checkbox"/>
+    <svg class="burger" viewBox="0 0 100 100" width="64">
+      <path class="line top" d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272"></path>
+      <path class="line middle" d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272"></path>
+      <path class="line bottom" d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272"></path>
+    </svg>
+  </label>
+  <nav>
+    <ul>
+      <li><a href="#masthead" title="masthead" style="--an:--masthead;--at:--masthead-s;">HOME</a></li>
+      <li><a href="#tiles" title="tiles" style="--an:--tiles;--at:--tiles-s;">Slide</a></li>
+      <li><a href="#text" title="text" style="--an:--text;--at:--text-s;">MY Works</a></li>
+      <li><a href="#two-columns" title="two-columns" style="--an:--two-columns;--at:--two-columns-s;">About Me</a></li>
+      <li><a href="#subscribe" title="subscribe" style="--an:--subscribe;--at:--subscribe-s;">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section id="masthead" style="--name:--masthead-s;">
+    <div class="flying-squares">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    <div class="masthead">
+      <h1>Vikran Phiwluang</h1>
+      <h2>Information Communication Technology</h2>
+      <p>เว็บรวมผลงานที่ทำครับผม 🤪</p>
+    </div>
+  </section>
+  <section id="tiles" style="--name:--tiles-s;">
+    <div class="tile-section">
+      <div class="tile-container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+    </div>
+  </section>
+  <section id="text" style="--name:--text-s;">
+    <div class="read">
+      <div>อ่านถึงนี่แล้วหย๋อ</div>
+    </div>
+    <div class="text">
+      <h2>Education Background</h2>
+      <p>Phuketwittayalai School [2015-2020]</p>
+      <p>Sripatum University B.S. (Information Communication Technology) [2021-2025]</p>
+      <h2>My Works</h2>
+      <img src="ghost.png" width="500" alt="">
+      <img src="bf5.png" width="500" alt="">
+      <img src="dino.png" width="450" alt="">
+      <img src="spulogo.png" width="300" alt="">
+      <img src="mix.png" width="800" height="300" alt="">
+
+    </div>
+  </section>
+  <section id="two-columns" style="--name:--two-columns-s;">
+    <div class="two-columns">
+      <h2>ABOUT ME</h2>
+      <div class="content">
+        <div class="cards">
+          <div class="card">
+            <h3 class="title">นาย วิกรานต์ ผิวเหลือง</h3>
+            <div class="subtitle">อยากเป็น UX/UI design ครับ </div>
+            <p>ผมเป็นนักศึกษามหาวิทยาลัยศรีปทุมสาขาเทคโนโลยีสารสนเทศและการสื่อสาร ผมสนใจและชอบในเรื่องของการออกแบบเว็บและชอบการวาดรูปการ์ตูนครับ</p>
+          </div>
+          <div class="card">
+            <h3 class="title">Skills</h3>
+            <div class="subtitle">ความสามารถ</div>
+            <p>HTML ⭐⭐⭐⭐</p>
+            <p>CSS ⭐⭐⭐</p>
+            <p>Photoshop ⭐⭐⭐</p>
+            <p>Procreate ⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card">
+            <h3 class="title">Activity</h3>
+            <div class="subtitle">กิจกรรมที่เข้าร่วม</div>
+            <p>ฟังบรรยายกิจกรรม Cyber Security Engineer</p>
+            <p>ร่วมกิจกรรม Tech Explore To DTGO Campus</p>
+            <p>เป็น Staff กิจกรรมแข่ง SPU AI PROMPT MINI HACKATHON 2024</p>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="img">
+            <img src="Toon2.jpg" width="600" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="subscribe" style="--name:--subscribe-s;">
+    <div class="subscribe">
+      <h2>CONTACT</h2>
+      <p>TEL: 099-005-2002</p>
+      <p>E-Mail: Vikranpza2014@hotmail.com</p>
+      <p>FB: Vikran Phiwluang</p>
+      <p>IG: Dafuqtoon</p>
+    </div>
+  </section>
+  <div class="scroll"><span>scroll</span>
+    <div class="divider"></div><span>down</span>
+  </div>
+</main>
+<footer><a href="https://www.instagram.com/dafuqtoon?igsh=MXduZTJ5bnBqb3U3aA==" target="_blank"><span><img src="https://cdn-icons-png.flaticon.com/256/87/87390.png" width="30" alt=""></span></a></footer>
+<!-- partial -->
+  
+</body>
+</html>
